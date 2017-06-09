@@ -17,7 +17,7 @@ import com.tcs.soapResponseCustomization.Service.SoapResponseCustomizationServic
 public class SoapResponseCustomizationController {
 	@Autowired 
 	SoapResponseCustomizationService service;
-	@RequestMapping(value = "/soapResponseCustomization", method = RequestMethod.POST)
+	@RequestMapping(value = "", method = RequestMethod.POST)
 	public @ResponseBody String getClientes(@RequestBody Request request) {
      String msg=null;
      try
